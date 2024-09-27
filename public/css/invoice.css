@@ -1,0 +1,112 @@
+.invoice-content,
+form {
+    position: relative;
+}
+.bill-form,
+.keterangan-inv {
+    width: 100%;
+    display: flex;
+}
+.invoice-content {
+    width: 100%;
+    flex: 1;
+    margin-top: 1rem;
+    padding: 6rem 4rem;
+    height: 100vh;
+    overflow-y: auto;
+}
+#thead-table {
+    background-color: #089b4d !important;
+}
+.hr {
+    width: 100%;
+    height: 1px;
+    background-color: #089b4d;
+}
+.hijo {
+    color: #089b4d;
+}
+.invoice-button,
+button#addRowBtn,
+td > button {
+    background-color: #f60;
+    color: #fff;
+    border: none;
+}
+.keterangan-inv h4 {
+    font-weight: 600;
+}
+.graha-text {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+.invoice-content h1 {
+    text-align: center;
+    font-weight: 500;
+}
+.bill-form {
+    padding: 2rem 0;
+    justify-content: space-between;
+}
+.payment,
+.terms {
+    margin-top: 3rem;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}
+.payment .payment-count {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+.ttd {
+    width: 300px;
+}
+.invoice-button {
+    position: absolute;
+    right: 0;
+    width: 150px;
+    padding: 0.4rem;
+}
+.balance-due > h4.balance,
+.subtotal > h4,
+.total > h4,
+.total > p {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+h4.disable > input,
+h4.disabled > p {
+    width: 250px;
+    border: none;
+    color: #000;
+    text-align: right;
+}
+input#invoice_date,
+input#invoice_rand,
+input#remaining_payment {
+    width: 250px;
+    height: 30px;
+    text-align: right;
+}
+button#addRowBtn,
+td > button {
+    font-weight: bolder;
+    padding: 0.3rem;
+}
+button > svg {
+    width: 20px;
+}
+input[readonly] {
+    border: none;
+    outline: 0;
+}
+input[readonly]:focus {
+    outline: 0;
+}
+.ck-editor {
+    width: 500px !important;
+}

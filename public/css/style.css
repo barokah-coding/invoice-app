@@ -1,0 +1,103 @@
+.img .link-ref,
+.sidebar,
+.user {
+    display: flex;
+    gap: 1rem;
+}
+.link-ref a,
+.text h3 {
+    color: #fff;
+    font-weight: 700;
+}
+.link-ref a,
+td a {
+    text-decoration: none;
+}
+* {
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.container-dasboard {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    padding: 0;
+}
+.theadd tr th {
+    background-color: #604cc3 !important;
+    color: #fff;
+}
+.sidebar {
+    background-color: #604cc3;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 2rem;
+    box-shadow: 3px 0 3px rgba(0, 0, 0, 0.127);
+    flex: 0.2;
+    z-index: 7;
+}
+.main-content {
+    width: 600px;
+    flex: 1;
+    margin-top: 5rem;
+    padding: 3rem 4rem 10rem;
+    background-color: #fff;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+}
+.main-content > .title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+.title > .textt {
+    width: 600px;
+}
+.title > .img img {
+    width: 100px;
+}
+.head-title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 0.95rem;
+}
+.text {
+    width: 100%;
+}
+.text h3 {
+    text-align: center;
+}
+.text p {
+    text-align: left;
+    font-size: 8pt;
+    color: #fff;
+}
+.img .link-ref {
+    width: 100%;
+    height: 30px;
+    align-items: center;
+}
+.link-ref:hover {
+    opacity: 0.2;
+}
+.link-ref svg {
+    width: 20px;
+    color: #fff;
+}
+td svg {
+    width: 20px;
+}
+
+
